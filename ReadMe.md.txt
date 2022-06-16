@@ -46,25 +46,13 @@ The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 
-+----------+-----------+------------+------------------+
-| Web      | Function  | IP Address | Operating system |
-+----------+-----------+------------+------------------+
-| Jump-Box | GateWay   | 10.1.0.4   | Linux            |
-+----------+-----------+------------+------------------+
+| Web      | Function  | IP Address | Operating System |
+|----------|-----------|------------|------------------|
+| JumpBox  | GateWay   | 10.1.0.4   | Linux            |
 | Web-1    | DVWA Serv | 10.1.0.7   | Linux            |
-+----------+-----------+------------+------------------+
 | Web-2    | DVWA Serv | 10.1.0.6   | Linux            |
-+----------+-----------+------------+------------------+
-| Web-3    | DVWA Serv | 10.1.0.8   | Linux            |
-+----------+-----------+------------+------------------+
+| Web-3    | DVWA      | 10.1.0.8   | Linux            |
 | Elk Serv | ELK Stack | 10.0.0.4   | Linux            |
-+----------+-----------+------------+------------------+
-
-
-
-
-The machines on the internal network are not exposed to the public Internet. 
-
 
 Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP address: 68.9.193.14
 
